@@ -13,5 +13,34 @@ It contains 566 rows of data, and 9 columns. I am unable to select age, race and
 <img width="653" height="429" alt="Screenshot 2026-09-13 at 6 30 29 PM" src="https://github.com/user-attachments/assets/a8cd84be-0584-46d9-b395-41d213f1dbef" />
 
 Visualizations 
+All my visualizations show that my original hypothesis wasn’t represented. Treatment showed a higher percentage than self reported measures. This is due to treatment being utilized for much more than just high rates of depression and anxiety which I did not account for in my original research question. However I still gain results from my data. I am able to compare how race and sex influence treatment and self reported measures despite not being able to view the treatment gap itself. I also was unable to look at just the age group by itself so it became a separate variable I looked at in the heat map. To see how the specific age group of all races and sex compares to individual races and sex of all ages. 
+<img width="1060" height="715" alt="Screenshot 2026-09-13 at 6 37 26 PM" src="https://github.com/user-attachments/assets/551c6cad-79cb-48ab-b14e-11e5c31911e3" />
+My first visualization shows different racial groups and the percentage in treatment and reporting symptoms. Asian and Hispanic have the lowest rates whereas the white population comes in with the highest percentages. We have missing bars for American Indian and Native Hawaiian showing where populations did not have enough data which shows underrepresentation and gaps in our data set. I chose to keep the variables to show areas we could improve on. When looking at the data itself we see the disparity. It would be unlikely that specific racial demographics actually have that much lower rates of anxiety and depression more likely points to cultural stigma, diagnostic framing biases, or institutional reporting barriers.
+
+
+<img width="884" height="540" alt="Screenshot 2026-09-13 at 6 40 24 PM" src="https://github.com/user-attachments/assets/3e2c2a36-2257-48b7-a30d-3db1cc3bf212" />
+My second visualization shows sex instead of race. This shows how females report higher percentages in all three categories however the treatment percentage is the closest between the two. We can understand from this that females may have higher rates of anxiety and depression or it could be social pressure surrounding emotional disclosure may lead men to underreport baseline symptoms.
+
+
+<img width="744" height="481" alt="Screenshot 2026-09-13 at 6 42 13 PM" src="https://github.com/user-attachments/assets/80ef305b-5d44-4292-a911-6f9fdeeae79c" />
+My third visualization shows a heat map comparing the percentages among all my variables. Placing age, sex, and race side by side demonstrates there is wide variation among demographic and mental health variables. We can see in all but the American Indian population treatment exceeds anxiety/depression symptoms. This reiterates that treatment is not solely used for these mental health conditions. Similarly the heat map shows how despite women reporting higher rates men are more likely to be in treatment. Furthermore we can now see the age demographic we wanted to look at and see how this age population has higher rates of all categories, which reflects the transitional period of young adulthood being stressful. 
+
+Limitations, Ethics and Reflection: 
+This project did not go the way I expected at all. I expected treatment to be lower than reported symptoms to highlight how disparities among sex and race intersect treatment opportunities. Although this is still a good research question my data did not necessarily reflect this. It showed how treatment for the most part exceeded anxiety/depression self reported measures. I had to adjust my reporting to reflect what the data actually shows, not force my original question and hypothesis. This was an important lesson to learn that the data will not always reflect what I want it to, but it is important to not lie and force your fidings. This is due to treatment being used for a combination of things and not solely just anxiety or depression. Similarly I was unable to just focus on young adults because the way the data was set up you could not select for age and race and gender, you could only select for one at a time. However in the heat map I could show age, gender and race side by side to show comparisons and interactions. Similarly the data had sex not gender so we could not include populations like intersex and nonbinary which would most likely provide interesting data. Another limitation is selfreported data and the basis that come with this. Cultural and gender stigmas lower symptom reporting among men and minorities, which we can see reflected in our data. Finally we had some empty variables that I left during data cleaning to show where my data was limited and racial groups were underrepresented due to not enough response data. 
+
+Code Transparency and Sources: 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11537208/
+https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.589687/full
+https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds
+Jupiter Notebook - file:///Users/sarahspielbauer/DataScienceProject1.html
+Google Gemeni was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations. 
+Seaborn https://seaborn.pydata.org/index.html# was used as a refernce to make visualizations. 
+
+
+
+
+
+
+
 
 
