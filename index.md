@@ -7,7 +7,7 @@ I am Sarah Spielbauer, a junior at UNC Charlotte. I am originally from Minnesota
 ---
 ## Portfolio
 - [Blog](blog.md)
-- [Projects](project1.md)
+- [Projects](project1.md) 
 
 ## Contact and Connect
 www.linkedin.com/in/sarahspielbauer 
