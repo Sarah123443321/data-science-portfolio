@@ -14,16 +14,44 @@ The gap between symptoms and treatment is what we are going to conceptualize. We
 Data Cleaning and Preparation: 
 In python I used pandas to filter and clean the API data set. This is because it contained many variables I did not need. 
 It contains 566 rows of data, and 9 columns. I am unable to select age, race and gender all at once so when cleaning the data so I pulled these out as featured data to compare. I look at the age group 18-34 as one variable, race as a second and sex as the third. When I looked at race and sex it is not just the age group 18-34 since my data can not be viewed in that way. Rather I must look at the data as separate pieces. To clean the data I filtered the data to only use NHIS data and not the teen data. I had to convert the percentages into numeric floats to be able to use and compare. I filtered demographic types to focus on race and sex. Finally I isolated the three specific data set questions I was utilizing to examine my research question. I also filtered my data to look at the most recent data from 2024. These are all the steps I did to clean my data. I left in missing variables during cleaning to show where not enough data was collected. I decided this was important since my research question was focused on underrepresentation and systematic disparities. So rather then removing missing variables I left them in to see where we have gaps. 
-<img width="653" height="429" alt="Screenshot 2026-09-13 at 6 30 29 PM" src="https://github.com/user-attachments/assets/a8cd84be-0584-46d9-b395-41d213f1dbef" />
+
+#filters so we only have the NHIS data 
+df_clean = data[data["Data_Source"] == "NHIS"].copy()
+
+#makes the percent data all numeric 
+df_clean["Percent"] = pd.to_numeric(df_clean["Percent"], errors="coerce")
+
+#filtering for the two demographics I am interest in and the age group 
+df_clean = df_clean[
+    df_clean["Demographics_Type"].isin(["Age", "Sex", "RaceEthnicity"]) 
+ 
+]
+
+#selecting for only the variables I want to explore
+clean_cols = [
+    "Year",
+    "Question",
+    "Demographics_Type",
+    "Demographics_Value",
+    "Percent",
+]
+
+df_final = df_clean[clean_cols].reset_index(drop=True)
+
+df_final.head()
+
+
 
 Visualizations 
 All my visualizations show that my original hypothesis wasn’t represented. Treatment showed a higher percentage than self reported measures. This is due to treatment being utilized for much more than just high rates of depression and anxiety which I did not account for in my original research question. However I still gain results from my data. I am able to compare how race and sex influence treatment and self reported measures despite not being able to view the treatment gap itself. I also was unable to look at just the age group by itself so it became a separate variable I looked at in the heat map. To see how the specific age group of all races and sex compares to individual races and sex of all ages. 
 <img width="1060" height="715" alt="Screenshot 2026-09-13 at 6 37 26 PM" src="https://github.com/user-attachments/assets/551c6cad-79cb-48ab-b14e-11e5c31911e3" />
-My first visualization shows different racial groups and the percentage in treatment and reporting symptoms. Asian and Hispanic have the lowest rates whereas the white population comes in with the highest percentages. We have missing bars for American Indian and Native Hawaiian showing where populations did not have enough data which shows underrepresentation and gaps in our data set. I chose to keep the variables to show areas we could improve on. When looking at the data itself we see the disparity. It would be unlikely that specific racial demographics actually have that much lower rates of anxiety and depression more likely points to cultural stigma, diagnostic framing biases, or institutional reporting barriers.
+My first visualization shows different racial groups and the percentage in treatment and reporting symptoms. Asian and Hispanic have the lowest rates whereas the white population comes in with the highest percentages. This shows how white have more access and less stigma regarding mental health and how disparities among both self report and treatment differ based on race. 
+
+We have missing bars for American Indian and Native Hawaiian showing where populations did not have enough data which shows underrepresentation and gaps in our data set. I chose to keep the variables to show areas we could improve on. When looking at the data itself we see the disparity. It would be unlikely that specific racial demographics actually have that much lower rates of anxiety and depression more likely points to cultural stigma, diagnostic framing biases, or institutional reporting barriers.
 
 
 <img width="884" height="540" alt="Screenshot 2026-09-13 at 6 40 24 PM" src="https://github.com/user-attachments/assets/3e2c2a36-2257-48b7-a30d-3db1cc3bf212" />
-My second visualization shows sex instead of race. This shows how females report higher percentages in all three categories however the treatment percentage is the closest between the two. We can understand from this that females may have higher rates of anxiety and depression or it could be social pressure surrounding emotional disclosure may lead men to underreport baseline symptoms.
+My second visualization shows sex instead of race. This shows how females report higher percentages in all three categories. However, the treatment gap between males and females is narrower than the symptom gap, pointing to potential male underreporting due to stigma and societal pressure surrounding mental health. 
 
 
 <img width="744" height="481" alt="Screenshot 2026-09-13 at 6 42 13 PM" src="https://github.com/user-attachments/assets/80ef305b-5d44-4292-a911-6f9fdeeae79c" />
