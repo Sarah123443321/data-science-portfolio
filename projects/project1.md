@@ -32,8 +32,11 @@ Code Transparency and Sources:
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11537208/
 https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.589687/full
 https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds
+
 Jupiter Notebook - file:///Users/sarahspielbauer/DataScienceProject1.html
-Google Gemeni was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations. 
+
+Google Gemeni was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations.
+
 Seaborn https://seaborn.pydata.org/index.html# was used as a refernce to make visualizations. 
 
 
