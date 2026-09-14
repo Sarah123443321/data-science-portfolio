@@ -1,10 +1,14 @@
 Project 1:
+Demographic Disparities in Young Adult Mental Health Care
 
 Problem Defenition:
+Question:  How does the gap between self-reported symptoms of (anxiety/depression) and actual mental health service utilization vary across race and sex among young adults (18–34) in the United States?
+
 Early adulthood(age 18-34) represents a very critical transition for many in the United States. Pursuing higher education, joining the workforce, starting families and navigating independence usually coincide with increased rates of anxiety, depression and other mental health issues. While mental health awareness and support are expanding there still lies a divide between those experiencing mental health struggles and actually receiving treatment. This gap is particularly noticeable when examined through racial and gender inequalities, since stigma, systematic barriers and socioeconomic inequalities have created uneven access to health care. Identifying how these disparities vary across different demographics is necessary for healthcare systems, policymakers and mental health support to design targeted solutions to remove barriers and provide equitable mental health support for all young adults.
 
 Data Description:
-https://data.cdc.gov/Mental-Health/National-Health-Interview-Survey-NHIS-Mental-Healt/d89q-62iu/about_data is my API DATA. The data comes from the CDC which is the government data base, it is relatively trust worthy but evidently like all data may have bias and underrepresented populations. The dataset contains 566 rows and 9 columns spanning many demographics such as age, sex, and race.
+Data Source: CDC National Health Interview Survey (NHIS) API: 
+https://data.cdc.gov/Mental-Health/National-Health-Interview-Survey-NHIS-Mental-Healt/d89q-62iu/about_data. The data comes from the CDC which is the government data base, it is relatively trust worthy but evidently like all data may have bias and underrepresented populations. The dataset contains 566 rows and 9 columns spanning many demographics such as age, sex, and race.
 The gap between symptoms and treatment is what we are going to conceptualize. We will take self assessment of anxiety symptoms in the past year and depression symptoms in the past year and compare both these percentages to the percentage who saw a medical professional for treatment in the past year. My variables include age, I am choosing to look at the young adult group which represents early stages of adulting a very transitional period. This is in our data set as age 18-34. Sex is my second variable this is a demographic reflecting biological sex at birth which is in our data set as male or female. Race is my third variable this is your racial category that reflects lived experince and access to care. In our data set the categories are Black, Hispanic, Asian, White, AI/AN which is American Indian, NHOPI and multiracial. Self reported anxiety and self reported depression are two of the variables I am using to represent mental health issues. This is in our data as the percentages who self report high intensities of these feelings over the past year. Finally therapy utilization is those who interact with a mental health professional in any capacity to seek treatment. In our data set it is conceptualized as those seeing treatment in the past 12 months. 
 
 Data Cleaning and Preparation: 
@@ -29,13 +33,18 @@ Limitations, Ethics and Reflection:
 This project did not go the way I expected at all. I expected treatment to be lower than reported symptoms to highlight how disparities among sex and race intersect treatment opportunities. Although this is still a good research question my data did not necessarily reflect this. It showed how treatment for the most part exceeded anxiety/depression self reported measures. I had to adjust my reporting to reflect what the data actually shows, not force my original question and hypothesis. This was an important lesson to learn that the data will not always reflect what I want it to, but it is important to not lie and force your fidings. This is due to treatment being used for a combination of things and not solely just anxiety or depression. Similarly I was unable to just focus on young adults because the way the data was set up you could not select for age and race and gender, you could only select for one at a time. However in the heat map I could show age, gender and race side by side to show comparisons and interactions. Similarly the data had sex not gender so we could not include populations like intersex and nonbinary which would most likely provide interesting data. Another limitation is selfreported data and the basis that come with this. Cultural and gender stigmas lower symptom reporting among men and minorities, which we can see reflected in our data. Finally we had some empty variables that I left during data cleaning to show where my data was limited and racial groups were underrepresented due to not enough response data. 
 
 Code Transparency and Sources: 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC11537208/
-https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.589687/full
-https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds
+
+Quinn, C. (2019, September 6). Transgender and non-binary students face “enormous” disparities in mental health problems, study finds. GBH. https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds 
+
+Shi, P., Yang, A., Zhao, Q., Chen, Z., Ren, X., & Dai, Q. (2026, September 13). A hypothesis of gender differences in self-reporting symptom of depression: Implications to solve under-diagnosis and under-treatment of depression in males. Frontiers. https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2021.589687/full 
+
+Van Doren, N., Zhu, Y., Vázquez, M. M., Shah, J., Grammer, A. C., Fitzsimmons-Craft, E. E., Eisenberg, D., Wilfley, D. E., Taylor, C. B., & Newman, M. G. (2024, September 1). Racial and ethnic disparities in barriers to mental health treatment among U.S. college students. Psychiatric services (Washington, D.C.). https://pmc.ncbi.nlm.nih.gov/articles/PMC11537208/ 
+
+
 
 Jupiter Notebook - file:///Users/sarahspielbauer/DataScienceProject1.html
 
-Google Gemeni was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations.
+Google Gemini (2026 version) was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations.
 
 Seaborn https://seaborn.pydata.org/index.html# was used as a refernce to make visualizations. 
 
