@@ -15,7 +15,6 @@ I am Sarah Spielbauer, a junior at UNC Charlotte. I am originally from Minnesota
 
 [View My Resume](./sarah's%20resume.png)
 
-<img width="1545" height="2000" alt="sarah&#39;s resume" src="https://github.com/user-attachments/assets/d68d963f-109b-4e8c-8f1a-c024ba98c4f0" />
 email: sarahspielbauer@icloud.com
 
 
