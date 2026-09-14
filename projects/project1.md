@@ -61,6 +61,7 @@ Limitations, Ethics and Reflection:
 This project did not go the way I expected at all. I expected treatment to be lower than reported symptoms to highlight how disparities among sex and race intersect treatment opportunities. Although this is still a good research question my data did not necessarily reflect this. It showed how treatment for the most part exceeded anxiety/depression self reported measures. I had to adjust my reporting to reflect what the data actually shows, not force my original question and hypothesis. This was an important lesson to learn that the data will not always reflect what I want it to, but it is important to not lie and force your fidings. This is due to treatment being used for a combination of things and not solely just anxiety or depression. Similarly I was unable to just focus on young adults because the way the data was set up you could not select for age and race and gender, you could only select for one at a time. However in the heat map I could show age, gender and race side by side to show comparisons and interactions. Similarly the data had sex not gender so we could not include populations like intersex and nonbinary which would most likely provide interesting data. Another limitation is selfreported data and the basis that come with this. Cultural and gender stigmas lower symptom reporting among men and minorities, which we can see reflected in our data. Finally we had some empty variables that I left during data cleaning to show where my data was limited and racial groups were underrepresented due to not enough response data. 
 
 Code Transparency and Sources: 
+[View Rendered Jupyter Notebook](https://Sarah123443321.github.io/data-science-portfolio/DataScienceProject1.html) 
 
 Quinn, C. (2019, September 6). Transgender and non-binary students face “enormous” disparities in mental health problems, study finds. GBH. https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds 
 
@@ -69,8 +70,6 @@ Shi, P., Yang, A., Zhao, Q., Chen, Z., Ren, X., & Dai, Q. (2026, September 13). 
 Van Doren, N., Zhu, Y., Vázquez, M. M., Shah, J., Grammer, A. C., Fitzsimmons-Craft, E. E., Eisenberg, D., Wilfley, D. E., Taylor, C. B., & Newman, M. G. (2024, September 1). Racial and ethnic disparities in barriers to mental health treatment among U.S. college students. Psychiatric services (Washington, D.C.). https://pmc.ncbi.nlm.nih.gov/articles/PMC11537208/ 
 
 
-
-Jupiter Notebook - file:///Users/sarahspielbauer/DataScienceProject1.html
 
 Google Gemini (2026 version) was used to help troubleshoot code cleaning methods, and edit flaws in the visualizations.
 
