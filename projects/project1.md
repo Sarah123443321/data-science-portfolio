@@ -75,7 +75,7 @@ This project did not go the way I expected at all. I expected treatment to be lo
 In the future I would find a method or different data set to find a way to look at specific individuals with many demographics. So I could look at the targeted age group gender and sex all at the same time rather then separately. Similarly I would find a different way to operationalize symptoms that way we could see more of the treatment disparity to see where treatment is lacking in a more clear way. I think my biggest take away from this project is the important of finding the right data set. The findings I found are still super useful for disparities in mental health however, did not support my original research question to the fullest extent as we could not segment for all demographics at once, rather we looked at them independelty. 
 
 Code Transparency and Sources: 
-[View Rendered Jupyter Notebook](https://Sarah123443321.github.io/data-science-portfolio/DataScienceProject1.html) 
+[View Rendered Jupyter Notebook](https://Sarah123443321.github.io/data-science-portfolio/Data_Society_Project.html) 
 
 Quinn, C. (2019, September 6). Transgender and non-binary students face “enormous” disparities in mental health problems, study finds. GBH. https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds 
 
