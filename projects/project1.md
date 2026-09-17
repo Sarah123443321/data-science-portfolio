@@ -80,17 +80,17 @@ In the future I would find a method or different data set to find a way to look 
 
 Data Source: [CDC National Health Interview Survey (NHIS) API](https://data.cdc.gov/Mental-Health/National-Health-Interview-Survey-NHIS-Mental-Healt/d89q-62iu/about_data).
 
-[Quinn, C. (2019, September 6). Transgender and non-binary students face “enormous” disparities in mental health problems, study finds. GBH.] (https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds). 
+[Quinn, C. (2019, September 6). Transgender and non-binary students face “enormous” disparities in mental health problems, study finds. GBH.](https://www.wgbh.org/news/local/2019-08-20/transgender-and-non-binary-students-face-enormous-disparities-in-mental-health-problems-study-finds). 
 
-[Shi, P., Yang, A., Zhao, Q., Chen, Z., Ren, X., & Dai, Q. (2021). A hypothesis of gender differences in self-reporting symptom of depression: Implications to solve under-diagnosis and under-treatment of depression in males. Frontiers in Psychiatry, 12, Article 589687.] (https://doi.org/10.3389/fpsyt.2021.589687).
+[Shi, P., Yang, A., Zhao, Q., Chen, Z., Ren, X., & Dai, Q. (2021). A hypothesis of gender differences in self-reporting symptom of depression: Implications to solve under-diagnosis and under-treatment of depression in males. Frontiers in Psychiatry, 12, Article 589687.](https://doi.org/10.3389/fpsyt.2021.589687).
 
-[Van Doren, N., Zhu, Y., Vázquez, M. M., Shah, J., Grammer, A. C., Fitzsimmons-Craft, E. E., Eisenberg, D., Wilfley, D. E., Taylor, C. B., & Newman, M. G. (2024). Racial and Ethnic Disparities in Barriers to Mental Health Treatment Among U.S. College Students. Psychiatric services (Washington, D.C.), 75(9), 839–846.] (https://doi.org/10.1176/appi.ps.20230185). 
+[Van Doren, N., Zhu, Y., Vázquez, M. M., Shah, J., Grammer, A. C., Fitzsimmons-Craft, E. E., Eisenberg, D., Wilfley, D. E., Taylor, C. B., & Newman, M. G. (2024). Racial and Ethnic Disparities in Barriers to Mental Health Treatment Among U.S. College Students. Psychiatric services (Washington, D.C.), 75(9), 839–846.](https://doi.org/10.1176/appi.ps.20230185). 
 
 
 
 Google Gemini (2026 version): Used to assist with troubleshooting code, cleaning methods, and to edit flaws in the visualizations.
 
-[Seaborn] (https://seaborn.pydata.org/index.html#). was used as a reference to make visualizations. 
+[Seaborn](https://seaborn.pydata.org/index.html#). was used as a reference to make visualizations. 
 
 
 
