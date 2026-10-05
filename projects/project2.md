@@ -32,13 +32,15 @@ The first thing to note is the geographical location this data was collected fro
 
 Data Source:[University Student Stress Dataset](https://data.mendeley.com/datasets/rc5htd5dfr/1) hosted on Mendeley Data.
 
-[Barbayannis, G., Bandari, M., Zheng, X., Baquerizo, H., Pecor, K. W., & Ming, X. (2022). Academic Stress and Mental Well-Being in College Students: Correlations, Affected Groups, and COVID-19. Frontiers in psychology, 13, 886344.](https://doi.org/10.3389/fpsyg.2022.886344)
+Barbayannis, G., Bandari, M., Zheng, X., Baquerizo, H., Pecor, K. W., & Ming, X. (2022). Academic stress and mental well-being in college students: Correlations, affected groups, and COVID-19. *Frontiers in Psychology*, *13*, Article 886344. [https://doi.org/10.3389/fpsyg.2022.886344](https://pmc.ncbi.nlm.nih.gov/articles/PMC9169886/)
+Cited by: 1231
 
-[Garey, J. (2025, September 29). Academic anxiety: When school stress becomes too much - child mind Institute. Child Mind Institute.](https://childmind.org/article/understanding-academic-anxiety/).
+Child Mind Institute. (2021). *Understanding academic anxiety*. [https://childmind.org/article/understanding-academic-anxiety/](https://childmind.org/article/understanding-academic-anxiety/)
 
-[Olson, N., Oberhoffer-Fritz, R., Reiner, B. et al. Stress, student burnout and study engagement – a cross-sectional comparison of university students of different academic subjects. BMC Psychol 13, 293 (2025).](https://doi.org/10.1186/s40359-025-02602-6).
+Olson, N., Oberhoffer-Fritz, R., Reiner, B., & Schulz, T. (2025). Stress, student burnout and study engagement – a cross-sectional comparison of university students of different academic subjects. *BMC Psychology*, *13*(1), Article 293. [https://doi.org/10.1186/s40359-025-02602-6](https://link.springer.com/article/10.1186/s40359-025-02602-6)
 
-[White, A. E., & Karr, J. E. (2023). Psychometric Properties of the GAD-7 among College Students: Reliability, Validity, Factor Structure, and Measurement Invariance. Translational issues in psychological science, 10.1037/tps0000382. Advance online publication.]([https://doi.org/10.1037/tps0000382](https://pmc.ncbi.nlm.nih.gov/articles/PMC12221267/#S2).
+White, A. E., & Karr, J. E. (2023). Psychometric properties of the GAD-7 among college students: Reliability, validity, factor structure, and measurement invariance. *Translational Issues in Psychological Science*, *9*(4), 312–325. [https://doi.org/10.1037/tps0000382](https://pmc.ncbi.nlm.nih.gov/articles/PMC12221267/)
+Cited by: 68
 
 
 Google Gemini (2026 version): Used to assist with troubleshooting code, cleaning methods, training and testing data, creating the models and to edit flaws through the project.
