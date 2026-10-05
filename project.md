@@ -1,5 +1,5 @@
-[project 1](project/project1.md)
+[project 1](projects/project1.md)
 
 
-[project 2](project/project2.md)
+[project 2](projects/project2.md)
 
