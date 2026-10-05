@@ -35,6 +35,20 @@ I used mean absolute error, mean squared error and R squared to show how much st
   <img width="939" height="532" alt="Screenshot 2026-10-04 at 9 06 36 PM" src="https://github.com/user-attachments/assets/52cb7191-44c5-4306-9d05-e223b3a9101d" width="48%" />
 </p>
 
+<p align="center">
+  <img alt="Screenshot 2026-10-04 at 9 05 18 PM" src="https://github.com/user-attachments/assets/00e3a9c3-a7b3-483c-a269-4091a3a84f53" width="60%" />
+</p>
+
+<p align="center">
+  <img alt="Screenshot 2026-10-04 at 9 05 44 PM" src="https://github.com/user-attachments/assets/01df05e1-1810-4bca-825b-fd2afea3768f" width="48%" />
+  <img alt="Screenshot 2026-10-04 at 9 06 02 PM" src="https://github.com/user-attachments/assets/21ecd77f-2fb3-4686-97da-4f859087e043" width="48%" />
+</p>
+
+<p align="center">
+  <img alt="Screenshot 2026-10-04 at 9 06 20 PM" src="https://github.com/user-attachments/assets/d67212f0-8477-4dc7-9954-b131d807198c" width="48%" />
+  <img alt="Screenshot 2026-10-04 at 9 06 36 PM" src="https://github.com/user-attachments/assets/52cb7191-44c5-4306-9d05-e223b3a9101d" width="48%" />
+</p>
+
 
 ## Model Interpretation and Limitations: 
 Our model shows that our top influencing factors are screen time which add 3.23 points to the stress score for every one standard deviation of screen time, followed by exam frequency and assignment load. Top features that combat stress are family support and sleep hours which subtract the stress score. Study hours and peer pressure show very low influence. This shocks me because peer pressure feels like it would drive stress more. I was also surprised the most was screen time. This is not something I would have thought to research as a stress driver. My linear model accurately predicts stress for average scores but it buffers out for extreme scores. This could be due to factors not always being linear and buffering out at a point hours on screen may blend together and there is less difference between 9 and 10 hours as opposed to 4 and 5 hours. The coefficient tells us how much a variable impacts stress and the way it impacts (positive or negative relation). The residual shows the mistakes made between the true result and predicted result. Our model shows small balanced errors. We tend to under estimate extreme stressed students. Our models can lead us to conclude that stress can be predicted by specific variables in a student's life. This shows how controlling for these variables can help a student stress. Similarly, we can conclude the importance of family support and sleep. Schools should focus on distributing exams and work load while emphasizing the importance of maintaining family relations during this transitional period in a student's life where family communication may falter. We can not assume causation. We may want to assume that screen time causes stress however a stressed student may use screens as distraction thus making screen time high. We see correlation not causation. Similarly the model is not applicable to every individual. Some individuals may stray from the group predictions. It is important to understand every student is different and this is the average over a set of students. 
