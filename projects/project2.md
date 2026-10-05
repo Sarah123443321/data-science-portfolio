@@ -26,27 +26,14 @@ I coded for a training set mean baseline that predicts a stress score from the t
 I used mean absolute error, mean squared error and R squared to show how much stress variance of my model can be explained by the variables. I use these instead of precision and accuracy since its linear regression not classification. The baseline provides a benchmark by predicting the mean training stress score for every student. Its R squared of -0.016 shows that this simple approach does not predict individual stress scores. The Linear Regression model achieved an R squared of 0.703 and a much lower MAE, showing that the selected features provide more useful predictions than the average stress score. Furthermore our metrics demonstrate how the linear regression model wins on all aspects over both the tuned and non tuned decision trees. The tuned tree did score better than the untuned tree on all metrics. Linear regression was selected as the R squared was around 70 showing that 70% of stress variance can be explained. Similarly key factors such as screen time and workload followed smooth linear trends and strong correlation. The decision tree was important because it demonstrated which factors impacted stress scores the most, however the trade off is accuracy because it forces the linear trend to be concrete buckets. Linear regression is able to show the smooth trends and impact, however it does not capture non linear interactions. It also forces every increase to be linear, so an extra hour of screen time adds an automatic increase in stress. In reality the trends may be exponential where it trails off at a point. 
 
 <img width="409" height="119" alt="Screenshot 2026-10-04 at 9 05 18 PM" src="https://github.com/user-attachments/assets/00e3a9c3-a7b3-483c-a269-4091a3a84f53" />
-<img width="688" height="538" alt="Screenshot 2026-10-04 at 9 05 44 PM" src="https://github.com/user-attachments/assets/01df05e1-1810-4bca-825b-fd2afea3768f" />
-<img width="940" height="536" alt="Screenshot 2026-10-04 at 9 06 02 PM" src="https://github.com/user-attachments/assets/21ecd77f-2fb3-4686-97da-4f859087e043" />
-<img width="1290" height="634" alt="Screenshot 2026-10-04 at 9 06 20 PM" src="https://github.com/user-attachments/assets/d67212f0-8477-4dc7-9954-b131d807198c" />
-<img width="939" height="532" alt="Screenshot 2026-10-04 at 9 06 36 PM" src="https://github.com/user-attachments/assets/52cb7191-44c5-4306-9d05-e223b3a9101d" />
-
 <p align="center">
-  <img src="https://github.com" width="60%" />
+  <img width="688" height="538" alt="Screenshot 2026-10-04 at 9 05 44 PM" src="https://github.com/user-attachments/assets/01df05e1-1810-4bca-825b-fd2afea3768f" width="48%" />
+  <img width="940" height="536" alt="Screenshot 2026-10-04 at 9 06 02 PM" src="https://github.com/user-attachments/assets/21ecd77f-2fb3-4686-97da-4f859087e043" width="48%" />
 </p>
-
 <p align="center">
-  <img src="https://github.com" width="48%" />
-  <img src="https://github.com" width="48%" />
+  <img width="1290" height="634" alt="Screenshot 2026-10-04 at 9 06 20 PM" src="https://github.com/user-attachments/assets/d67212f0-8477-4dc7-9954-b131d807198c" width="48%" />
+  <img width="939" height="532" alt="Screenshot 2026-10-04 at 9 06 36 PM" src="https://github.com/user-attachments/assets/52cb7191-44c5-4306-9d05-e223b3a9101d" width="48%" />
 </p>
-
-<p align="center">
-  <img src="https://github.com" width="48%" />
-  <img src="https://github.com" width="48%" />
-</p>
-
-
-
 
 
 ## Model Interpretation and Limitations: 
