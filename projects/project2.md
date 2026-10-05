@@ -38,7 +38,7 @@ Data Source:[University Student Stress Dataset](https://data.mendeley.com/datase
 
 [Olson, N., Oberhoffer-Fritz, R., Reiner, B. et al. Stress, student burnout and study engagement – a cross-sectional comparison of university students of different academic subjects. BMC Psychol 13, 293 (2025).](https://doi.org/10.1186/s40359-025-02602-6).
 
-[White, A. E., & Karr, J. E. (2023). Psychometric Properties of the GAD-7 among College Students: Reliability, Validity, Factor Structure, and Measurement Invariance. Translational issues in psychological science, 10.1037/tps0000382. Advance online publication.](https://doi.org/10.1037/tps0000382).
+[White, A. E., & Karr, J. E. (2023). Psychometric Properties of the GAD-7 among College Students: Reliability, Validity, Factor Structure, and Measurement Invariance. Translational issues in psychological science, 10.1037/tps0000382. Advance online publication.]([https://doi.org/10.1037/tps0000382](https://pmc.ncbi.nlm.nih.gov/articles/PMC12221267/#S2).
 
 
 Google Gemini (2026 version): Used to assist with troubleshooting code, cleaning methods, training and testing data, creating the models and to edit flaws through the project.
