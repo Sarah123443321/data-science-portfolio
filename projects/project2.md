@@ -31,6 +31,20 @@ I used mean absolute error, mean squared error and R squared to show how much st
 <img width="1290" height="634" alt="Screenshot 2026-10-04 at 9 06 20 PM" src="https://github.com/user-attachments/assets/d67212f0-8477-4dc7-9954-b131d807198c" />
 <img width="939" height="532" alt="Screenshot 2026-10-04 at 9 06 36 PM" src="https://github.com/user-attachments/assets/52cb7191-44c5-4306-9d05-e223b3a9101d" />
 
+<p align="center">
+  <img src="https://github.com" width="60%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com" width="48%" />
+  <img src="https://github.com" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com" width="48%" />
+  <img src="https://github.com" width="48%" />
+</p>
+
 
 
 
