@@ -1,4 +1,4 @@
-# Project 1:
+# Project 2:
 # Predicting Undergraduate Student Stress
 
 ## Problem Definition
