@@ -1,4 +1,5 @@
-Sarah Spielbauer
+*Sarah Spielbauer
+
 **Psychology & Data Science Double Major | Statistics Minor | UNC Charlotte (GPA: 4.0/4.0)**  
 *Woodbury, MN (Hometown) • Charlotte, NC (School)*
 ---
