@@ -9,10 +9,6 @@ I am Sarah Spielbauer, a junior at UNC Charlotte. I am originally from Minnesota
 * **[Predicting Undergraduate Student Stress](projects/project2.md)** — Analyzed a 3,000-response behavioral survey dataset using regression modeling ($R^2 = 0.703$) and cross-validation to identify key academic and lifestyle drivers of stress, translating coefficients into actionable well-being recommendations.
 * **[Demographic Disparities in Young Adult Mental Health Care](projects/project1.md)** — Cleaned and visualized 2024 CDC National Health Interview Survey (NHIS) API data across age, sex, and race/ethnicity to examine symptom reporting versus treatment access, highlighting self-report stigma and structural underrepresentation.
 
-- [Blog](blog.md)
-- [Projects](project.md)
-
-
 ## Contact and Connect
 
 [LinkedIn Profile](https://www.linkedin.com/in/sarahspielbauer)
